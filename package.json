@@ -1,0 +1,54 @@
+{
+  "name": "evenflow-ui",
+  "version": "0.0.0",
+  "description": "evenflow editor and visualization tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinmchase/evenflow-ui.git"
+  },
+  "keywords": [
+    "evenflow",
+    "dataflow"
+  ],
+  "author": "Justin Chase <justin.m.chase@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinmchase/evenflow-ui/issues"
+  },
+  "homepage": "https://github.com/justinmchase/evenflow-ui#readme",
+  "standard": {
+    "env": {
+      "node": true,
+      "browser": true,
+      "mocha": true,
+      "es6": true
+    }
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-standalone": "^6.22.1",
+    "bootstrap": "^3.3.7",
+    "evenflow": "0.0.0",
+    "jquery": "^3.1.1",
+    "json-loader": "^0.5.4",
+    "jsplumb": "^2.2.10",
+    "vue": "^2.1.10"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "electron": "^1.4.15",
+    "gulp-livereload": "^3.8.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-standard": "^8.0.3",
+    "gulp-webpack": "^1.5.0",
+    "require-dir": "^0.3.1",
+    "standard": "^8.6.0",
+    "webpack": "^1.14.0"
+  }
+}
