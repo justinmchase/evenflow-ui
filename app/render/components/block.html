@@ -1,0 +1,14 @@
+<div class="w" :style="{ height: blockHeight }">
+  <div class="block-border"></div>
+  <div class="title" :style="{ height: titleHeight }">
+    <span>{{block.name}}</span>
+  </div>
+  <div class="properties" :style="{ height: propertiesHeight }">
+    <ul class="inputs">
+      <li class="input property" v-for="input in inputs">{{input}}</li>
+    </ul>
+    <ul class="outputs">
+      <li class="output property" v-for="output in outputs">{{output}}</li>
+    </ul>
+  </div>
+</div>
